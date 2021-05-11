@@ -8,7 +8,7 @@ describe('Test hello', function() {
 	})
 	
 	it('should not pass', function() {
-		assert.equal('Hello, Daniell', hello('Daniel'));
+		assert.equal('Hello, Daniel', hello('Daniel'));
 	});
 
 });
